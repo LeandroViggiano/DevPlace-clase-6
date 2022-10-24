@@ -1,15 +1,24 @@
 body{
-    background-color: beige;
+    padding: 10px;
+    background-image: radial-gradient(circle at 100% 0%, #bfe79c 0, #afe59c 10%, #9de39d 20%, #89e09f 30%, #72dca1 40%, #55d8a4 50%, #28d4a8 60%, #00cfae 70%, #00cbb5 80%, #00c7bd 90%, #00c4c6 100%);
 }
 .ejercicio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     width: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid rgb(255, 246, 246);
+    color: aliceblue;
+}
+.titulo{
+    margin: 5px;
+    padding: 5px;
+    font-size: x-large;
 }
 #ejercicio1{
-    background-color: azure;
     width: 25%;
     height: 200px;
 }
@@ -17,11 +26,9 @@ body{
 #ejercicio2{
     width: 25%;
     height: 200px;
-    background-color: rgb(179, 255, 255);
 }
 
 #ejercicio3{
     width: 25%;
     height: 200px;
-    background-color: rgb(151, 253, 158);
 }
