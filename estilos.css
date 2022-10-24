@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+}
+.ejercicio{
+    display: flex;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#ejercicio1{
+    background-color: azure;
+    width: 25%;
+    height: 200px;
+}
+
+#ejercicio2{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(179, 255, 255);
+}
+
+#ejercicio3{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(151, 253, 158);
+}
