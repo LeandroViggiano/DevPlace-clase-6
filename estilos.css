@@ -7,8 +7,7 @@ body{
     display: flex;
     width: auto;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
     text-align: center;
     border: 1px solid rgb(255, 246, 246);
     color: aliceblue;
